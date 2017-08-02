@@ -1,0 +1,21 @@
+{
+  das_VoyageList(count: 50000){
+    items {
+      das_number {value},
+      das_has_ship {items {uri}},
+      das_built {items {value}},
+      das_yard{items{value}},
+      das_tonnage{items{value}},
+      das_chamber{items{uri}},
+      das_typeOfShip{uri},
+      das_placeOfDeparture{items{uri}},
+      das_dateOfDeparture{items{value}},
+      das_departureFromCape{items{value}},
+      das_placeOfArrival{items{uri}},
+      das_dateOfArrivalAtDestination{items{value}},
+      das_chamberForWhichCargoIsDestined{uri},
+      das_master{items{uri}},
+      das_particulars{items{value}}
+    }
+  }
+}

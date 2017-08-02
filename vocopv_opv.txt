@@ -1,0 +1,34 @@
+{
+  vocopv_OpvarendenRecordList (count:50000) {
+    items{
+      vocopv_ID {
+        value
+      },
+      vocopv_voornaam {value},
+      vocopv_patroniem {value},
+      vocopv_tussenvoegsel {value},
+      vocopv_achternaam{value},
+      vocopv_has_herkomst{items {
+        uri
+      }},
+      vocopv_jaarUitreis{value},
+      vocopv_rang{value},
+      vocopv_eindeDatumDag{value},
+      vocopv_eindeDatumMaand{value},
+      vocopv_eindeDatumJaar{value},
+      vocopv_eindeManier{value},
+      vocopv_eindePlaats{value},
+      vocopv_has_schip{uri},
+      vocopv_kamer{uri},
+      vocopv_jaarUitreis{value},
+      vocopv_transportbrief{value},
+      vocopv_vermaakt{value},
+      vocopv_soldijboek{value},
+      vocopv_folio{value},
+      vocopv_dasuitreis{value}
+      #vocopv_opmerkingen{items{__typename}}
+    }
+  }
+}
+
+

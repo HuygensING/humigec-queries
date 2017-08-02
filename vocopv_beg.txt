@@ -1,0 +1,13 @@
+{
+  vocopv_BegunstigdenRecordList (count: 50000){
+    items {
+      vocopv_ID {value},
+      vocopv_has_persoon {uri},
+      vocopv_perVoornaam {value},
+      vocopv_perPatronym {value},
+      vocopv_perTussenvoegsel {value},
+      vocopv_perAchternaam {value},
+      vocopv_perRol {value}
+    }
+  }
+} 
