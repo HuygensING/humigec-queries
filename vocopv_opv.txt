@@ -1,5 +1,5 @@
 {
-  vocopv_OpvarendenRecordList (count: 5000) {
+  vocopv_OpvarendenRecordList (count: 50000) {
     items{
       vocopv_ID {
         value
@@ -8,9 +8,7 @@
       vocopv_patroniem {value},
       vocopv_tussenvoegsel {value},
       vocopv_achternaam{value},
-      vocopv_has_herkomst{items {
-        uri
-      }},
+      vocopv_has_herkomst{items{skos_prefLabel{items{value}}}},
       vocopv_jaarUitreis{value},
       vocopv_rang{value},
       vocopv_eindeDatumDag{value},
@@ -20,14 +18,14 @@
       vocopv_eindePlaats{value},
       vocopv_eindeElders{value},
       vocopv_has_schip{uri},
-      vocopv_kamer{uri},
+      vocopv_kamer{uri, void_distinctObjects{value}},
       vocopv_jaarUitreis{value},
+      vocopv_has_dasuitreis{uri,void_distinctObjects{value}},
       vocopv_transportbrief{value},
       vocopv_vermaakt{value},
       vocopv_soldijboek{value},
       vocopv_folio{value},
       vocopv_schip{value}
-      #vocopv_opmerkingen{__typename}
     }
   }
 }
