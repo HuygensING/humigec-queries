@@ -1,5 +1,5 @@
 {
-  das_VoyageList (count: 50000) {
+  das_VoyageList (count:50000)  {
     items {
       das_number {value},
       das_has_ship {items {das_typeOfShip{skos_prefLabel{items{value}}}}},
@@ -8,10 +8,11 @@
       das_tonnage{items{value}},
       das_chamber{items{skos_prefLabel{value}}},
       das_typeOfShip{skos_prefLabel{items{value}}},
-      das_placeOfDeparture{items{skos_prefLabel{items{value}}}},
+      das_placeOfDeparture{items{skos_exactMatch{items{uri}}},items{skos_prefLabel{items{value}}}},
+      #das_placeOfDeparture{items{skos_prefLabel{items{value}}}},
       das_dateOfDeparture{items{value}},
       das_departureFromCape{items{value}},
-      das_placeOfArrival{items{skos_prefLabel{items{value}}}},
+      das_placeOfArrival{items{skos_exactMatch{items{uri}}},items{skos_prefLabel{items{value}}}},
       das_dateOfArrivalAtDestination{items{value}},
       das_chamberForWhichCargoIsDestined{skos_prefLabel{value}},
       das_master{items{das_name{value}}},

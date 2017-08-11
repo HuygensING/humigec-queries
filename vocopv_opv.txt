@@ -1,5 +1,5 @@
 {
-  vocopv_OpvarendenRecordList (count: 50000) {
+  vocopv_OpvarendenRecordList  {
     items{
       vocopv_ID {
         value
@@ -8,7 +8,7 @@
       vocopv_patroniem {value},
       vocopv_tussenvoegsel {value},
       vocopv_achternaam{value},
-      vocopv_has_herkomst{items{skos_prefLabel{items{value}}}},
+      vocopv_has_herkomst{items{skos_exactMatch{items{uri}}},items{skos_prefLabel{items{value}}}},
       vocopv_jaarUitreis{value},
       vocopv_rang{value},
       vocopv_eindeDatumDag{value},
